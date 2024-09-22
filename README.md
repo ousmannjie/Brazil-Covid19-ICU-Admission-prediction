@@ -22,3 +22,7 @@ Logistic Regression Accuracy before optimization: 80% Accuracy after optimizat
 Random ForestAccuracy: 81% Class 0 (non-ICU patients)precision: 89%Recall: 85%class 1 (ICU patients)precision: 65%recall: 72%
 
 Decision TreeAccuracy before optimization: 75% Accuracy after optimization: 80%Class 0 (non-ICU patients)precision: 82%Recall: 85%class 1 (ICU patients)precision: 56%recall: 50%
+
+Conclusion 
+
+This study demonstrates the potential of machine learning models to predict ICU admissions for COVID-19 patients in Brazil. Healthcare providers can better allocate ICU resources and improve patient outcomes by leveraging data and advanced modeling techniques. Future research should incorporate additional features, such as treatment history, to enhance prediction accuracy and model robustness. It should also include time stamps for the vitals, that way the window column can be better utilized. All the models did well, but they had trouble accurately predicting the minority class, this indicates an imbalance in the data that needs to be addressed. This could be addressed using techniques like SMOTE, feature engineering, and the exploration of ensemble methods to enhance predictive performance, particularly for ICU patients. On the overall performance of all the models, Random Forest outperformed the rest, and it will be the ideal model to use in future predictions. 
