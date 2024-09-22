@@ -14,6 +14,7 @@ Visualizations, including heatmaps and count plots, were employed to explore how
 ![image](https://github.com/user-attachments/assets/2cd16922-a46c-4b04-ac58-2aa8a72e50c3)
 
 Machine Learning Models 
+
 Three machine learning models were employed to predict ICU admissions: Logistic Regression, Random Forest Classifier, and Decision Tree Classifier. The following sections detail the model training, evaluation, and optimization processes. the window column was dropped before working on the models. This is because there would be a lot of assumptions if it had to be included in the features.  
 
 Logistic Regression Accuracy before optimization: 80% Accuracy after optimization: 81%Class 0 (non-ICU patients)precision: 82%Recall: 93%class 1 (ICU patients)precision: 71%recall: 47%
